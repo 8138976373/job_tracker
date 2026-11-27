@@ -1,0 +1,11 @@
+{
+  "name": "Fieldnote",
+  "short_name": "Fieldnote",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F5F7F4",
+  "theme_color": "#237A57",
+  "description": "A clean architecture Flutter starter for customer relationships.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false
+}

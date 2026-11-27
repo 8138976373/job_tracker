@@ -1,0 +1,57 @@
+Running `(cd /Users/safvan/.pub-cache/hosted/pub.dev/objective_c-9.5.0/; ANDROID_HOME=/Users/safvan/Library/Android/sdk TMPDIR=/var/folders/64/t6r6d2y90q56xdmy1d3f0m3r0000gn/T/ ANDROID_NDK_ROOT=/Users/safvan/Library/Android/sdk/ndk/28.2.13676358 PATH=/Applications/Xcode.app/Contents/SharedFrameworks/SwiftBuild.framework/Versions/A/PlugIns/SWBBuildService.bundle/Contents/PlugIns/SWBUniversalPlatformPlugin.bundle/Contents/Frameworks/SWBUniversalPlatform.framework/Resources:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Users/safvan/.antigravity-ide/antigravity-ide/bin:/opt/homebrew/opt/openjdk@21/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/safvan/developer/flutter/bin/:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/Library/Apple/usr/bin:/Users/safvan/developer/flutter/bin:/Users/safvan/Library/Android/sdk/platform-tools:/Users/safvan/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand:/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim:/Users/safvan/.docker/bin HOME=/Users/safvan ANDROID_NDK_HOME=/Users/safvan/Library/Android/sdk/ndk/28.2.13676358 /Users/safvan/developer/flutter/bin/cache/dart-sdk/bin/dart --packages=/Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/package_config.json /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/objective_c/7ad245dadc/hook.dill --config=/Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/objective_c/7ad245dadc/input.json )`.
+INFO: 2026-11-27 11:05:55.748679: Using compiler /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang from BuildInput.cCompiler.cc.
+
+INFO: 2026-11-27 11:05:55.766233: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -target arm64-apple-darwin -mmacos-version-min=13 -c /Users/safvan/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/include/dart_api_dl.c -fpic -gline-tables-only -I src -o /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/include/dart_api_dl.c.o
+
+INFO: 2026-11-27 11:05:55.773065: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -target arm64-apple-darwin -mmacos-version-min=13 -c /Users/safvan/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/objective_c.c -fpic -gline-tables-only -I src -o /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.c.o
+
+INFO: 2026-11-27 11:05:55.774476: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/safvan/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/input_stream_adapter.m -fpic -gline-tables-only -I src -o /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/input_stream_adapter.m.o
+
+INFO: 2026-11-27 11:05:55.774947: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/safvan/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/observer.m -fpic -gline-tables-only -I src -o /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/observer.m.o
+
+.m.o
+
+INFO: 2026-11-27 11:05:55.775444: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/safvan/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/objective_c_bindings_generated.m -fpic -gline-tables-only -I src -o /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c_bindings_generated.m.o
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/safvan/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/protocol.m -fpic -gline-tables-only -I src -o /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/protocol.m.o
+
+INFO: 2026-11-27 11:05:55.938816: 
+INFO: 2026-11-27 11:05:55.939050: 
+INFO: 2026-11-27 11:05:55.939106: Generated /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.c.o
+
+INFO: 2026-11-27 11:05:55.942188: 
+INFO: 2026-11-27 11:05:55.942244: 
+INFO: 2026-11-27 11:05:55.942279: Generated /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/include/dart_api_dl.c.o
+
+INFO: 2026-11-27 11:05:55.946003: 
+
+INFO: 2026-11-27 11:05:55.946753: 
+
+INFO: 2026-11-27 11:05:55.947298: Generated /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/observer.m.o
+
+INFO: 2026-11-27 11:05:55.972464: 
+INFO: 2026-11-27 11:05:55.972532: 
+INFO: 2026-11-27 11:05:55.972548: Generated /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/protocol.m.o
+
+INFO: 2026-11-27 11:05:56.258940: 
+INFO: 2026-11-27 11:05:56.259015: 
+INFO: 2026-11-27 11:05:56.259034: Generated /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/ns_number.m.o
+
+INFO: 2026-11-27 11:05:56.274121: 
+INFO: 2026-11-27 11:05:56.274184: 
+INFO: 2026-11-27 11:05:56.274201: Generated /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/input_stream_adapter.m.o
+
+INFO: 2026-11-27 11:05:56.274770: 
+INFO: 2026-11-27 11:05:56.274803: 
+INFO: 2026-11-27 11:05:56.274819: Generated /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.m.o
+
+INFO: 2026-11-27 11:05:56.313096: 
+INFO: 2026-11-27 11:05:56.313157: 
+INFO: 2026-11-27 11:05:56.313176: Generated /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-11-27 11:05:56.314368: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -shared -Wl,-encryptable -undefined dynamic_lookup -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -target arm64-apple-darwin -mmacos-version-min=13 /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/include/dart_api_dl.c.o /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.c.o /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/input_stream_adapter.m.o /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.m.o /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/observer.m.o /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/ns_number.m.o /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/protocol.m.o /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c_bindings_generated.m.o -o /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/objective_c.dylib
+
+INFO: 2026-11-27 11:05:56.371074: 
+INFO: 2026-11-27 11:05:56.371230: 
+INFO: 2026-11-27 11:05:56.371250: Generated /Users/safvan/projects/JobTracker/Jobtracker_clean/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/objective_c.dylib
+

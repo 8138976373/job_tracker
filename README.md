@@ -1,6 +1,6 @@
 # Jobtracker_clean — Flutter client
 
-Flutter client for JobTracker. Registration requires a password of at least 6 characters. Field validation updates while you edit. It includes login/registration, a dashboard, and a searchable, paginated application list with create/edit/delete. Each record stores date applied, position, company, location, experience, portal, job link, status, and notes.
+Flutter client for JobTracker. Registration requires a password of at least 6 characters. Field validation updates while you edit. It includes login/registration, a dashboard, a searchable, paginated application list with create/edit/delete, and a career profile for current role, compensation, experience, and location preferences.
 
 ## Run with the local stack
 
@@ -31,10 +31,11 @@ lib/
 └── features/
     ├── auth/{data,domain,presentation}
     ├── applications/{data,domain,presentation}
+    ├── profile/{data,domain,presentation}
     └── dashboard/presentation
 ```
 
 UI pages call presentation view models. View models call domain use cases through repository contracts. Data repositories implement those contracts and coordinate API data sources and JSON models. The composition root at `lib/core/di/app_dependencies.dart` wires the application graph. Domain code does not import Flutter, HTTP, or persistence implementation details.
 
-Follow one request end to end: `JobApplicationViewModel` → use case → repository contract → remote data source → API model; then follow the Spring side from the controller through application service and domain port to the JPA adapter.
+Follow one request end to end: `JobApplicationViewModel` → use case → repository contract → remote data source → API model; then follow the Spring side from the controller through application service and domain port to the JPA adapter. Career profile data follows the same layers and is stored per account by the Java API (`GET`/`PUT /api/v1/profile`) in the `career_profile` table. Flyway migration `V2__create_career_profile.sql` creates the table.
 # job_tracker
